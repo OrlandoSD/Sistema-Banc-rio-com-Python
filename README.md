@@ -16,9 +16,9 @@ Um sistema bancário simples desenvolvido com `tkinter` para funcionar offline e
 
 ## Estrutura do Projeto
 
-bank_system/
-├── bank_system.py
-└── README.md
+   bank_system/
+   ├── bank_system.py
+   └── README.md
 
 
 ## Instalação e Execução
