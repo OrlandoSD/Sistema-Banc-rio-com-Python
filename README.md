@@ -1,22 +1,6 @@
-content = """
 # Sistema Bancário
 
-Um sistema bancário simples desenvolvido com Flask para o back-end e HTML/CSS/JavaScript para o front-end.
-
-## Índice
-
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-
-## Descrição
-
-Este projeto é um sistema bancário simples que permite aos usuários realizar operações bancárias básicas, como depósito, saque e visualização de extrato. O back-end é construído com Flask, enquanto o front-end utiliza HTML, CSS e JavaScript.
+Um sistema bancário simples desenvolvido com `tkinter` para funcionar offline em um computador.
 
 ## Funcionalidades
 
@@ -27,49 +11,38 @@ Este projeto é um sistema bancário simples que permite aos usuários realizar 
 
 ## Tecnologias Utilizadas
 
-- [Flask](https://flask.palletsprojects.com/) - Micro framework para o back-end
-- HTML - Estrutura do front-end
-- CSS - Estilização do front-end
-- JavaScript - Interatividade no front-end
+- Python
+- `tkinter` para a interface gráfica
 
 ## Estrutura do Projeto
 
 bank_system/
-├── app.py
-├── static/
-│ └── styles.css
-└── templates/
-└── index.html
+├── bank_system.py
+└── README.md
 
 
-## Instalação
+## Instalação e Execução
 
-1. Clone o repositório para sua máquina local:
+1. **Clone o repositório ou faça o download dos arquivos**:
+
    ```bash
-   git clone https://github.com/seu-usuario/sistema-bancario.git
-
-cd sistema-bancario
-
-python -m venv venv
-
-venv\\Scripts\\activate
-
-source venv/bin/activate
-
-pip install Flask
-
-python app.py
+   git clone https://github.com/seu-usuario/sistema-bancario-offline.git
+   cd sistema-bancario-offline
 
 
-#Contribuição
-Se você deseja contribuir com este projeto, sinta-se à vontade para fazer um fork do repositório, criar uma branch com suas alterações e enviar um pull request. Todas as contribuições são bem-vindas!
+python bank_system.py
 
-Faça um fork do projeto
-Crie uma branch para sua feature (git checkout -b feature/sua-feature)
-Commit suas alterações (git commit -am 'Adiciona nova feature')
-Push para a branch (git push origin feature/sua-feature)
-Abra um pull request
 
-Abra o navegador e acesse http://127.0.0.1:5000.
+##Como Usar
+   Clique no botão "Depositar" para adicionar valores à conta.
+   Clique no botão "Sacar" para retirar valores da conta.
+   Clique no botão "Extrato" para visualizar o extrato das operações.
+   Clique no botão "Sair" para fechar o sistema.
+   Contribuição
+   Se você deseja contribuir com este projeto, sinta-se à vontade para fazer um fork do repositório, criar uma branch com suas alterações e enviar um pull request. Todas as contribuições são bem-vindas!
 
-Utilize a interface para realizar depósitos, saques e visualizar o extrato.
+##Faça um fork do projeto
+   Crie uma branch para sua feature (git checkout -b feature/sua-feature)
+   Commit suas alterações (git commit -am 'Adiciona nova feature')
+   Push para a branch (git push origin feature/sua-feature)
+   Abra um pull request
